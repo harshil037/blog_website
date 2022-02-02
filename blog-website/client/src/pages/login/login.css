@@ -1,0 +1,67 @@
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to top left, rgb(26, 33, 44), rgb(7, 8, 7));
+  background-size: cover;
+  color: rgb(199, 247, 207);
+}
+.loginTitle {
+  font-family: "Varela Round", sans-serif;
+  font-size: 50px;
+}
+
+.loginForm {
+  font-family: "Varela Round", sans-serif;
+  width: 13%;
+  font-size: 18px;
+  font-weight: 20;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.loginForm > label {
+  margin: 10px 0;
+}
+
+.loginInput {
+  color: white;
+  padding: 10px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgb(199, 247, 207);
+}
+
+.loginButton {
+  margin-top: 22px;
+  cursor: pointer;
+  width: 100px;
+  align-self: center;
+  /* background-color: rgb(29, 68, 24); */
+  background-color: rgb(11, 36, 46);
+  border: 1px solid black;
+  color: rgb(199, 247, 207);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.loginButton:disabled {
+  cursor: not-allowed;
+  background-color: rgb(118, 250, 173);
+}
+
+.loginRegisterButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  background-color: rgb(11, 36, 46);
+  border: 1px solid black;
+  color: rgb(199, 247, 207);
+  border-radius: 10px;
+}

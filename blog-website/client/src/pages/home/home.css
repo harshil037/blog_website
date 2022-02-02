@@ -1,0 +1,5 @@
+.home {
+  display: flex;
+  padding-right: 20px;
+  background-image: linear-gradient(to top left, rgb(26, 33, 44), rgb(7, 8, 7));
+}
